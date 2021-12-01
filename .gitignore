@@ -1,0 +1,18 @@
+# Ignore local .env files
+.env.*.local
+.env.local
+
+# Ignore built files
+/dist
+/dist-spec
+
+# Ignore installed modules
+/node_modules
+
+# Ignore test files
+/.nyc_output
+/coverage
+
+# System Files
+.DS_Store
+Thumbs.db
