@@ -4,7 +4,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.mcodeomop
 canonical: http://mcodeomop.example.org
-title: "Minimum Common Oncology Data Elements (mCODE) to Observational Medical Outcomes Partnership (OMOP) Analysis"
+title: "mCODE to OMOP Oncology CDM Analysis"
 name: mcodeomop
 status: draft
 description: "This FHIR implementation guide (IG) is a actually a FHIR analysis of how to represent biomarkers in a way that combines genetic and serum-based prognostic tumor markers. This serves more as a document with computable FHIR examples. Profiles and value sets may be generated but it is secondary and created in support of further analyses. The output of this artifact may be merged into mCODE and supplementary content if relevant and appropriate."
