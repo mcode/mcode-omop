@@ -1,6 +1,5 @@
 // Concept maps
 
-/*
 Instance: address-use-concept-map
 InstanceOf: ConceptMap
 Usage: #definition
@@ -51,5 +50,3 @@ Usage: #definition
 * group.unmapped.mode = #fixed
 * group.unmapped.code = #temp
 * group.unmapped.display = "temp"
-
-*/
