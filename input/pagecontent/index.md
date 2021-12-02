@@ -1,4 +1,3 @@
-# mCODE to OMOP Oncology FHIR Analysis
 
 This FHIR implementation guide (IG) is a mapping analysis from the Minimum Common Oncology Data Elements (mCODE) and the Observational Medical Outcomes Partnership (OMOP) Common Data Model (CDM) oncology data elements. 
 
