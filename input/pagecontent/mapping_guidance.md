@@ -1,14 +1,14 @@
-## Mapping Guidance
+### Mapping Guidance
 
-### General
+#### General
 
-#### Date Handling
+##### Date Handling
 
-#### Mapping to OMOP Concepts
+##### Mapping to OMOP Concepts
 
 The OMOP Ontology is an amalgamation of multiple standard and non-standard concepts that are normalized to an overarching OMOP concept. OMOP creates separate fields dedicated to the OMOP concept id, and to other supported terminologies.
 
-### Mapping Primary Cancer Diagnoses
+#### Mapping Primary Cancer Diagnoses
 
 mCODE and the OMOP CDM Oncology Extension differ in their representation of primary cancer diagnoses:
 
@@ -23,4 +23,6 @@ The logic for an example conversion is illustrated in the diagram below:
 <object data="mCODE-OMOP-PrimaryCancerConditionVocab.svg" type="image/svg+xml"></object>
 <br/>
 
-### Mapping to OMOP Cancer Modifiers
+#### Mapping to OMOP Cancer Modifiers
+
+**TBD**
