@@ -15,10 +15,13 @@ releaseLabel: ci-build
 pages:
   index.md:
     title: Home
+  mapping_guidance.md:
+    title: mCODE to OMOP Mapping Guidance
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Artifacts: artifacts.html
+  Mapping Guidance: mapping_guidance.html
+  FHIR Artifacts: artifacts.html

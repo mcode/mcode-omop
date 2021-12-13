@@ -38,5 +38,18 @@ The [Common Data Model Harmonization (CDMH) FHIR IG](https://build.fhir.org/ig/H
 
 ## Data Flow
 
-<object data="mCODE-to-OMOP.svg" type="image/svg+xml"></object>
+<object data="mCODE-to-OMOP-dataflow.svg" type="image/svg+xml"></object>
 <br/>
+
+## OMOP Common Data Model (CDM) Oncology Extension
+
+The Cancer Diagnostic Model in the OMOP vocabulary is comprised of:
+
+* Cancer diagnosis: a condition that is a combination of histology (morphology) and topography (anatomic site).
+* Diagnostic schema: a group of cancer diagnoses with similar diagnostic features.
+* Diagnostic modifiers: a set of diagnostic features that define a group of cancer diagnoses. These include stage, grade, laterality, genomic biomarkers, and other attributes.
+
+[source: OHDSI - Cancer Models Representation](https://github.com/OHDSI/OncologyWG/wiki/Cancer-Models-Representation)
+
+
+
