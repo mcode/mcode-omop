@@ -8,8 +8,11 @@ title: "mCODE to OMOP Oncology CDM Analysis"
 name: mcodeomop
 status: draft
 description: "This FHIR implementation guide (IG) is a FHIR analysis to compare mCODE elements with OMOP CDM Oncology. This serves more as a document with computable FHIR examples. Profiles and value sets may be generated but it is secondary and created in support of further analyses. The output of this artifact may be merged into mCODE and supplementary content if relevant and appropriate."
-version: 0.1.0
+version: 2.0.0
 fhirVersion: 4.0.1
+dependencies: 
+  hl7.fhir.us.core: 4.0.0
+  hl7.fhir.us.mcode: current
 copyrightYear: 2021+
 releaseLabel: ci-build
 pages:

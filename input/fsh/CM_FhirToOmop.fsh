@@ -1,14 +1,14 @@
 // Concept maps
 
-Instance: condition-status
+Instance: condition-verification-status
 InstanceOf: ConceptMap
 Usage: #definition
-* url = "http://hl7.org/fhir/ConceptMap/condition-clinical"
+* url = "http://hl7.org/fhir/ConceptMap/condition-ver-status"
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:7bb077cb-df16-4c75-b342-d770505aca25"
 * version = "4.0.1"
-* name = "ConditionStatus"
-* title = "Condition Status"
+* name = "VerificationStatus"
+* title = "Verification Status"
 * status = #draft
 * experimental = true
 * date = "2021-12-16"
@@ -22,74 +22,21 @@ Usage: #definition
 * jurisdiction = urn:iso:std:iso:3166#US
 * purpose = "To help implementers map from HL7 FHIR to OMOP Vocabulary"
 * copyright = "Creative Commons 0"
-* sourceUri = "http://hl7.org/fhir/ValueSet/condition-clinical"
-* targetUri = "http://hl7.ohdsi.org/omop/ValueSet/condition-clinical"
-* group.source = "http://hl7.org/fhir/condition-status"
+* sourceUri = "http://hl7.org/fhir/ValueSet/condition-ver-status"
+* targetUri = "http://hl7.ohdsi.org/omop/ValueSet/condition-status"
+* group.source = "http://terminology.hl7.org/CodeSystem/condition-ver-status"
 * group.target = "http://hl7.ohdsi.org/omop/CodeSystem/condition-status"
-* group.element[0].code = #recurrence
-* group.element[=].display = "Recurrence"
-* group.element[=].target.code = #4058583
-* group.element[=].target.display = "recurrence of problem"
+* group.element[0].code = #confirmed
+* group.element[=].display = "Confirmed"
+* group.element[=].target.code = #32893
+* group.element[=].target.display = "Confirmed diagnosis"
+* group.element[=].target.equivalence = #equal
+* group.element[+].code = #differential
+* group.element[=].display = "Differential"
+* group.element[=].target.code = #32899
+* group.element[=].target.display = "Preliminary diagnosis"
 * group.element[=].target.equivalence = #equivalent
-* group.element[=].target.comment = "target code does not align with OMOP condition status vocabulary"
-* group.element[+].code = #Resolved
-* group.element[=].display = "work"
-* group.element[=].target.code = #32906
-* group.element[=].target.display = "Resolved condition"
-* group.element[=].target.equivalence = #equivalent
+* group.element[=].target.comment = "Approximation mapping"
 * group.unmapped.mode = #fixed
-* group.unmapped.code = #temp
-* group.unmapped.display = "temp"
-
-// Concept maps
-
-Instance: address-use-concept-map
-InstanceOf: ConceptMap
-Usage: #definition
-* url = "http://hl7.org/fhir/ConceptMap/address-use-concept-map"
-* identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:53cd62ee-033e-414c-9f58-3ca97b5ffc3b"
-* version = "4.0.1"
-* name = "FHIRv3AddressUse"
-* title = "FHIR/v3 Address Use Mapping"
-* status = #draft
-* experimental = true
-* date = "2012-06-13"
-* publisher = "HL7, Inc"
-* contact.name = "FHIR project team (example)"
-* contact.telecom.system = #url
-* contact.telecom.value = "http://hl7.org/fhir"
-* description = "A mapping between the FHIR and HL7 v3 AddressUse Code systems"
-* useContext.code = http://terminology.hl7.org/CodeSystem/usage-context-type#venue
-* useContext.valueCodeableConcept.text = "for CCDA Usage"
-* jurisdiction = urn:iso:std:iso:3166#US
-* purpose = "To help implementers map from HL7 v3/CDA to FHIR"
-* copyright = "Creative Commons 0"
-* sourceUri = "http://hl7.org/fhir/ValueSet/address-use"
-* targetUri = "http://terminology.hl7.org/ValueSet/v3-AddressUse"
-* group.source = "http://hl7.org/fhir/address-use"
-* group.target = "http://terminology.hl7.org/CodeSystem/v3-AddressUse"
-* group.element[0].code = #home
-* group.element[=].display = "home"
-* group.element[=].target.code = #H
-* group.element[=].target.display = "home"
-* group.element[=].target.equivalence = #equivalent
-* group.element[+].code = #work
-* group.element[=].display = "work"
-* group.element[=].target.code = #WP
-* group.element[=].target.display = "work place"
-* group.element[=].target.equivalence = #equivalent
-* group.element[+].code = #temp
-* group.element[=].display = "temp"
-* group.element[=].target.code = #TMP
-* group.element[=].target.display = "temporary address"
-* group.element[=].target.equivalence = #equivalent
-* group.element[+].code = #old
-* group.element[=].display = "old"
-* group.element[=].target.code = #BAD
-* group.element[=].target.display = "bad address"
-* group.element[=].target.equivalence = #disjoint
-* group.element[=].target.comment = "In the HL7 v3 AD, old is handled by the usablePeriod element, but you have to provide a time, there's no simple equivalent of flagging an address as old"
-* group.unmapped.mode = #fixed
-* group.unmapped.code = #temp
-* group.unmapped.display = "temp"
+* group.unmapped.code = #refuted
+* group.unmapped.display = "refuted"

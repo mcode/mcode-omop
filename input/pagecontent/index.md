@@ -18,7 +18,7 @@ The [Common Data Model Harmonization (CDMH) FHIR IG](https://build.fhir.org/ig/H
 
 * The following data model versions will be used in the analysis:
 
-  * [OMOP CDM v5.4](https://ohdsi.github.io/CommonDataModel/cdm54.html)
+  * [OMOP CDM v5.3](https://ohdsi.github.io/CommonDataModel/cdm53.html)
   * [OMOP Oncology Extension](https://github.com/OHDSI/OncologyWG/wiki/Cancer-Models-Representation)
   * [mCODE FHIR IG Standard for Trial Use #2 (STU2)](http://build.fhir.org/ig/HL7/fhir-mCODE-ig/branches/master/index.html)
 
@@ -50,6 +50,4 @@ The Cancer Diagnostic Model in the OMOP vocabulary is comprised of:
 * Diagnostic modifiers: a set of diagnostic features that define a group of cancer diagnoses. These include stage, grade, laterality, genomic biomarkers, and other attributes.
 
 [source: OHDSI - Cancer Models Representation](https://github.com/OHDSI/OncologyWG/wiki/Cancer-Models-Representation)
-
-
 
