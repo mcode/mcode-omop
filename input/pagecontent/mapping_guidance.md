@@ -13,9 +13,43 @@ The datatype for dates will vary with the database. In the OMOP DDL for Postgres
 For consistency, mCODE retain its existing format of **yyyy-mm-dd** for OMOP CDM `start_date` and `end_date` fields:
 For example: _1999-01-08_
 
-#### Handling FHIR Statuses
+##### Handling FHIR Statuses
 
 FHIR resources contain elements that describe statuses. Examples include `Condition.verificationStatus` and `ServiceRequest.status`. The OMOP CDM however does not have fields that describe event statuses. Instead, OMOP presumes the following:
+
+* FHIR `Completed` statuses are recorded as end dates.
+* FHIR `Active` statuses are recorded as start dates.
+
+Subsequently, profiles which have these one of these status will require start, end, and/or "point-in-time" dates for mappings to the following mCODE-relevant OMOP tables which require one or more of these date fields:
+
+* VISIT_OCCURRENCE
+* VISIT_DETAIL
+* CONDITION_OCCURRENCE
+* DRUG_EXPOSURE
+* PROCEDURE_OCCURRENCE
+* MEASUREMENT
+* OBSERVATION
+* DEATH
+* SPECIMEN
+
+##### mCODE FHIR Observation mappings to OMOP MEASUREMENT or OBSERVATION
+
+In FHIR, quantitative and qualitative measurements are handled under one common [Observation](https://www.hl7.org/fhir/observation.html) resource. OMOP differs in its approach and separates quantitative measuresments under [MEASUREMENT](https://ohdsi.github.io/CommonDataModel/cdm54.html#MEASUREMENT) and qualitative observations under [OBSERVATION](https://ohdsi.github.io/CommonDataModel/cdm54.html#OBSERVATION).
+
+The distinction is not always clear since there are some measurements, particularly survey instruments which could be considered to be either one. An example in mCODE is [ECOGPerformanceStatus](http://hl7.org/fhir/us/mcode/StructureDefinition-mcode-ecog-performance-status.html), which is clinically an observation performed by the managing physician, but is recorded as a quantitative survey instrument with a score as an integer.
+The implementer must disambiguate FHIR Observation to identify its context and determine whether the mapping is to OMOP MEASUREMENT or OBSERVATION. 
+
+Reference the OMOP [MEASUREMENT](https://ohdsi.github.io/CommonDataModel/cdm54.html#MEASUREMENT) and [OBSERVATION](https://ohdsi.github.io/CommonDataModel/cdm54.html#OBSERVATION) table definitions for further details.
+
+##### Handling Relationships Between Tables
+
+FHIR models have constructs called References which relate multiple FHIR resources if needed. Examples include an observation which was performed because of a patient disease. Examples in mCODE include:  the following:
+
+* [CancerRelatedMedicationAdministration](http://hl7.org/fhir/us/mcode/StructureDefinition-mcode-cancer-related-medication-administration.html) profile where the [MedicationAdministration.reasonReference](http://hl7.org/fhir/us/mcode/StructureDefinition-mcode-cancer-related-medication-administration-definitions.html#MedicationAdministration.reasonReference) element is a reference to the mCODE profile [PrimaryCancerCondition](http://hl7.org/fhir/us/mcode/StructureDefinition-mcode-primary-cancer-condition.html) or [SecondaryCancerCondition](http://hl7.org/fhir/us/mcode/StructureDefinition-mcode-secondary-cancer-condition.html) profile.
+
+
+
+#### Domain-specific Mapping Guidance
 
 ##### Cancer Conditions
 
@@ -39,7 +73,7 @@ FHIR `Condition.verificationStatus` is semantically equivalent to the OMOP Condi
 
 The OMOP Ontology is an amalgamation of multiple standard and non-standard concepts that are normalized to an overarching OMOP concept. OMOP creates separate fields dedicated to the OMOP concept id, and to other supported terminologies.
 
-#### Mapping Primary Cancer Diagnoses
+##### Mapping Primary Cancer Diagnoses
 
 mCODE and the OMOP CDM Oncology Extension differ in their representation of primary cancer diagnoses:
 
@@ -54,6 +88,6 @@ The logic for an example conversion is illustrated in the diagram below:
 <object data="mCODE-OMOP-PrimaryCancerConditionVocab.svg" type="image/svg+xml"></object>
 <br/>
 
-#### Mapping to OMOP Cancer Modifiers
+##### Mapping to OMOP Cancer Modifiers
 
 **TBD**

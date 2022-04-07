@@ -12,7 +12,7 @@ The [Common Data Model Harmonization (CDMH) FHIR IG](https://build.fhir.org/ig/H
 ### Scope and Assumptions
 
 * Initial mappings will be unidirectional from mCODE to OMOP Oncology CDM. OMOP Oncology to mCODE is currently out of scope and will be considered in the future.
-* Only the minimal and required mCODE data elements will be mapped to OMOP. FHIR metadata or supportive data elements that are not relevant to OMOP will be omitted. 
+* Only the minimal and required mCODE data elements will be mapped to OMOP. FHIR metadata or supportive data elements that are not relevant to OMOP may be omitted. However significant gaps that apply to the either US Core or the FHIR base release will be shared with the HL7-OHDSI community if found during the analysis.
 
 #### Scope
 
@@ -22,7 +22,12 @@ The [Common Data Model Harmonization (CDMH) FHIR IG](https://build.fhir.org/ig/H
   * [OMOP Oncology Extension](https://github.com/OHDSI/OncologyWG/wiki/Cancer-Models-Representation)
   * [mCODE FHIR IG Standard for Trial Use #2 (STU2)](http://build.fhir.org/ig/HL7/fhir-mCODE-ig/branches/master/index.html)
 
-### Systems, Actors
+### Actors and Systems
+
+#### Actors
+
+* Healthcare providers
+* Researchers
 
 #### Systems
 
@@ -30,11 +35,6 @@ The [Common Data Model Harmonization (CDMH) FHIR IG](https://build.fhir.org/ig/H
 * FHIR Server
 * OMOP Data Store
 * Research Portals
-
-#### Actors
-
-* Providers
-* Researchers
 
 ### Data Flow
 
