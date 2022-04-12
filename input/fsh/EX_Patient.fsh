@@ -1,12 +1,12 @@
 Instance: patient-jane-doe
 InstanceOf: Patient
-Description: "Example Patient for supporting biomarker examples."
+Description: "Patient example: Jane Doe."
 * name.family = "Doe"
 * name.given[0] = "Jane"
 
 Instance: cancer-patient-john-anyperson
 InstanceOf: CancerPatient
-Description: "Example of Patient"
+Description: "Patient example: John Anyperson"
 * identifier.use = #usual
 * identifier.type = IDTYPE#MR "Medical Record Number"
 * identifier.system = "http://hospital.example.org"
