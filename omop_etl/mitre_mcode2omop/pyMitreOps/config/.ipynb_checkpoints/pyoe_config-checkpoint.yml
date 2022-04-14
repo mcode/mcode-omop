@@ -1,0 +1,9 @@
+fhirServer:
+  url: "https://api.logicahealth.org/mcodestu2/open/"
+  port: 8443
+dbConfig:
+  host: "localhost"
+  port: "3306"
+  username: "root"
+  password: "mltadmin"
+  dbname: "openemr"

@@ -1,0 +1,10 @@
+fhirServer:
+  url: "https://api.logicahealth.org/mcodestu2/open/"
+  port: 8443
+dbConfig:
+  dbtype: "psql"
+  host: "oncwg.cqnqzwtn5s1q.us-east-1.rds.amazonaws.com"
+  port: "5432"
+  username: "username"
+  password: "password"
+  dbname: "oncwg"

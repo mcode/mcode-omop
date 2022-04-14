@@ -1,0 +1,10 @@
+fhirServer:
+  url: "https://api.logicahealth.org/mcodestu2/open/"
+  port: 8443
+dbConfig:
+  dbtype: "psql"
+  host: "hd3.mitre.org"
+  port: "5432"
+  username: "mayt"
+  password: "mt789"
+  dbname: "hd"
