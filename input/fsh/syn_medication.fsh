@@ -1,4 +1,6 @@
 // Synthea Medication Instances
+// Last updated: 2022-04-19 15:30:08.074235 
+
 Instance: 4d918771-57e2-7cc5-65b9-55fe0dd14b10
 InstanceOf: CancerRelatedMedicationAdministration
 Description: "CancerRelatedMedicationAdministration example for patient 71ba0469-f0cc-4177-ac70-ea07cb01c8b8"
@@ -1257,7 +1259,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1996-10-10"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: b03adb6c-4805-18a1-0bfb-d7995ffc6bc6
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1267,7 +1269,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1996-10-10"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 095d01f8-1ade-75a6-39ea-0f61e03a2afc
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1277,7 +1279,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1996-11-02"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 46e4ad63-61d6-5dc4-86b6-3558a4aa5d25
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1287,7 +1289,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1996-11-02"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 556c66e0-0cdb-9ae3-64c4-4729b7ea4814
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1297,7 +1299,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1996-11-23"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 7eb1fd9b-6bc8-8d81-084c-7ffc5cf39478
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1307,7 +1309,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1996-11-23"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 201dd325-7791-2f53-2683-2d1df0031de1
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1317,7 +1319,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1996-12-14"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 02452224-4d18-10ec-2b6a-e63cf3b201b1
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1327,7 +1329,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1996-12-14"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 68a22b68-6e24-7770-a6fb-e80d16053696
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1337,7 +1339,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-01-08"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 0ff5de87-6f11-6af8-0a3b-f10ffba27237
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1347,7 +1349,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-01-08"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 771ea8e1-831d-49dd-65e3-3526602b89e6
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1357,7 +1359,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-02-02"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: ecc032db-83e6-198d-9218-620a41626ee6
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1367,7 +1369,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-02-02"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 99d7da13-64a9-5b5e-159f-79a0b7fc422e
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1377,7 +1379,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-02-26"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 2ebb7653-5596-14e9-7360-a15246a668a8
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1387,7 +1389,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-02-26"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 8b9c8566-178d-5fa2-30c5-7222273778c3
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1397,7 +1399,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-03-21"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 9132419b-12c6-9953-55cd-92d137f7950d
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1407,7 +1409,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-03-21"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: b94e8d0a-70d7-9ea0-0d17-076bb446712a
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1417,7 +1419,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-04-15"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 9fda82f3-9c23-7857-7c6b-8a51a6563510
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1427,7 +1429,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-04-15"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 94ba22e2-8f76-19d8-121e-118c127b2ea7
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1437,7 +1439,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-05-10"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: c737f238-6a69-a091-21b5-e9d4115c1e98
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1447,7 +1449,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-05-10"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 7e96f27c-8214-6949-6436-c5a11c730589
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1457,7 +1459,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-06-05"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 10b03967-8bf5-4eee-6b3b-9b6b7bbb4fa3
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1467,7 +1469,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-06-05"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 13c3bc3e-8aa5-2ddd-0a17-fe9e66340c71
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1477,7 +1479,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-06-30"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 8481234c-5b81-9331-10e8-b4f8c3106c9b
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1487,7 +1489,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-06-30"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: b090a669-1fa6-2421-62d1-37b881141098
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1497,7 +1499,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-07-23"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 6cf003aa-6255-96bc-2bb2-7a6895360302
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1507,7 +1509,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-07-23"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: a18c24fd-2e94-021b-3be0-62a0641611d6
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1517,7 +1519,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-08-13"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: aa274f22-3912-1520-801f-9144ee6c3d45
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1527,7 +1529,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-08-13"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 176b609d-3b53-5fa8-690b-d45e9265304b
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1537,7 +1539,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-09-09"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 155b2c55-5b25-85a2-4da3-914258708297
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1547,7 +1549,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-09-09"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: c1eff6af-1615-6d73-12d9-1fabeec95ce4
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1557,7 +1559,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-10-01"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 10c58b7f-5a44-0391-4f53-9d65aed236c2
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1567,7 +1569,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-10-01"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 5684bd65-9f1f-5584-298a-db5d235494ab
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1577,7 +1579,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-10-25"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 7fc20b8b-9f1f-0a37-265b-89ccbde12c24
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1587,7 +1589,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-10-25"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 202a5eef-739e-49ae-2ca0-4af40b254eba
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1597,7 +1599,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-11-21"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 5ca64d8f-534c-3bc2-3783-0e800873224e
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1607,7 +1609,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-11-21"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 0855159c-9a4c-877e-0590-68eb4f3d142a
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1617,7 +1619,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-12-12"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: c3a99a8e-93d2-21e9-46a4-24f8b3a80477
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1627,7 +1629,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1997-12-12"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: d6b39719-5eaf-2cf3-8432-135de2b224bb
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1637,7 +1639,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-01-02"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: fb17f096-2f4b-308f-35d5-4e2c233f8732
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1647,7 +1649,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-01-02"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 98813f18-614d-4588-8bcb-cfe9fcbd37c3
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1657,7 +1659,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-01-27"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 189f83ae-377c-0070-2e02-11071c21078b
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1667,7 +1669,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-01-27"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 9e79d015-0e9d-9cbf-485f-35b110d794a8
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1677,7 +1679,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-02-22"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 4b1b9430-00d3-438a-69a1-0ae0496364d6
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1687,7 +1689,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-02-22"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 9de2fcb1-4409-1b05-2e2e-8dd6d34c4fe8
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1697,7 +1699,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-03-18"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 99f5e8cc-99ef-06d8-719e-08127f8c33a8
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1707,7 +1709,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-03-18"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: c1062229-7290-57e2-2199-d5b897541c78
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1717,7 +1719,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-04-08"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 40a3029d-41dc-8b08-3ea1-aac5eb7c62b3
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1727,7 +1729,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-04-08"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: af85b1a4-1a58-8342-27dc-25ec26695832
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1737,7 +1739,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-05-01"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: a32a052f-2c20-139d-5442-2b127b8b563d
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1747,7 +1749,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-05-01"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 143afe7c-2ef6-a3ea-7a35-55cfb04b69e9
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1757,7 +1759,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-05-25"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: da5b1009-6f51-57ab-1c07-ffa147357a41
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1767,7 +1769,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-05-25"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 5de4224b-7d6f-3eda-06b1-d829ac3c4a31
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1777,7 +1779,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-06-15"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 148c389b-a486-976f-87cf-7b71cfb77256
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1787,7 +1789,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-06-15"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: d10c43ba-8ba9-9246-0836-6f820e767fdc
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1797,7 +1799,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-07-09"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: ccf3229e-92bf-2260-52ad-33c9928f2fba
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1807,7 +1809,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-07-09"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 26d2d94c-9dd7-25cb-9b10-4eea6a3d91d9
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1817,7 +1819,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-07-30"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: e07ee73e-7ed3-4955-0578-3b8792734329
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1827,7 +1829,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-07-30"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: f34bb895-5bc3-3502-9ba4-437e2b8a952d
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1837,7 +1839,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-08-21"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 99e5fcf7-061e-43b6-4028-e696b28c1fc9
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1847,7 +1849,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-08-21"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 82a7c475-a776-9b87-4377-fe549a4a046c
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1857,7 +1859,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-09-14"
 * medicationCodeableConcept = RXN#1736854 "Cisplatin 50 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 23c7187d-6a6f-4e15-6fce-b34bd802a4c2
 InstanceOf: CancerRelatedMedicationAdministration
@@ -1867,7 +1869,7 @@ Description: "CancerRelatedMedicationAdministration example for patient b1b10f6e
 * subject = Reference(b1b10f6e-e97a-426a-9581-f1a5c29b6e05)
 * effectiveDateTime = "1998-09-14"
 * medicationCodeableConcept = RXN#1734340 "Etoposide 100 MG Injection"
-* reasonCode = SCT#6.78E+13 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
+* reasonCode = SCT#67811000119102 "Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder)"
 
 Instance: 6a55dbb7-6a6b-9817-2727-8f8a224623d7
 InstanceOf: CancerRelatedMedicationAdministration
