@@ -84,3 +84,74 @@ Usage: #definition
 * group.element[=].target.display = "Unknown"
 * group.element[=].target.equivalence = #equal
 * group.element[=].target.comment = "Equal mapping"
+
+
+Instance: coc-store-to-us-core-birthsex
+InstanceOf: ConceptMap
+Usage: #definition
+* url = "http://hl7.org/fhir/ConceptMap/store-sex-to-fhir-us-core-birthsex"
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:7bb077cb-df16-4c75-b342-d770505aca25"
+* version = "4.0.1"
+* name = "STORE to US Core BirthSex"
+* title = "STORE to US Core BirthSex"
+* status = #draft
+* experimental = true
+* date = "2022-07-21"
+* publisher = "HL7, Inc"
+* contact.name = "mCODE Team (example)"
+* contact.telecom.system = #url
+* contact.telecom.value = "http://hl7.org/fhir"
+* description = "A mapping between the Commission on Cancer STORE to FHIR US Core Birthsex"
+* useContext.code = http://terminology.hl7.org/CodeSystem/usage-context-type#focus
+* useContext.valueCodeableConcept.text = "for CoC STORE to mCODE alignment"
+* jurisdiction = urn:iso:std:iso:3166#US
+* purpose = "To help implementers map concepts to HL7 FHIR"
+* copyright = "Creative Commons 0"
+* sourceUri = "https://www.facs.org/quality-programs/cancer-programs/commission-on-cancer/CodeSystem/Sex"
+* targetUri = "http://hl7.org/fhir/us/core/ValueSet/birthsex"
+* group[0].source = "https://www.facs.org/quality-programs/cancer-programs/commission-on-cancer/CodeSystem/Sex"
+* group[0].target = "http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender"
+* group[0].element[0].code = #1
+* group[0].element[=].display = "Male"
+* group[0].element[=].target.code = #M
+* group[0].element[=].target.display = "Male"
+* group[0].element[=].target.equivalence = #equal
+* group[0].element[+].code = #2
+* group[0].element[=].display = "Female"
+* group[0].element[=].target.code = #F
+* group[0].element[=].target.display = "Female"
+* group[0].element[=].target.equivalence = #equal
+* group[0].element[=].target.comment = "Equal mapping"
+* group[+].source = "https://www.facs.org/quality-programs/cancer-programs/commission-on-cancer/CodeSystem/Sex"
+* group[=].target = "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+* group[=].element[0].code = #3
+* group[=].element[0].display = "Other (intersex, disorders of sexual development/DSD)"
+* group[=].element[0].target.code = #OTH
+* group[=].element[0].target.display = "Other"
+* group[=].element[0].target.equivalence = #equivalent
+* group[=].element[0].target.comment = "Approximate mapping"
+* group[=].element[+].code = #4
+* group[=].element[=].display = "Transsexual, NOS"
+* group[=].element[=].target.code = #OTH
+* group[=].element[=].target.display = "Other"
+* group[=].element[=].target.equivalence = #inexact
+* group[=].element[=].target.comment = "Approximate mapping"
+* group[=].element[+].code = #5
+* group[=].element[=].display = "Transsexual, natal male"
+* group[=].element[=].target.code = #OTH
+* group[=].element[=].target.display = "Other"
+* group[=].element[=].target.equivalence = #inexact
+* group[=].element[=].target.comment = "Approximate mapping"
+* group[=].element[+].code = #6
+* group[=].element[=].display = "Transsexual, natal female"
+* group[=].element[=].target.code = #OTH
+* group[=].element[=].target.display = "Other"
+* group[=].element[=].target.equivalence = #inexact
+* group[=].element[=].target.comment = "Approximate mapping"
+* group[=].element[+].code = #9
+* group[=].element[=].display = "Not stated in patient record"
+* group[=].element[=].target.code = #UNK
+* group[=].element[=].target.display = "Unknown"
+* group[=].element[=].target.equivalence = #inexact
+* group[=].element[=].target.comment = "Approximate mapping"
